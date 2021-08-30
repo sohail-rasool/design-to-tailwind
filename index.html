@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gillion</title>
+  <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+  <script src="https://kit.fontawesome.com/11973505f0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/tailwind.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Top Nav start -->
+  <nav class="bg-black hidden lg:flex items-center py-2">
+    <div class="container mx-auto flex flex-wrap">
+      <div class="flex items-center flex-1">
+        <ul class="flex items-center gap-4">
+          <li class="font-bold text-white text-sm"><a href="#" class="hover:text-red-600">About</a></li>
+          <li class="font-bold text-white text-sm"><a href="#" class="hover:text-red-600">Contact</a></li>
+          <li class="font-bold text-white text-sm"><a href="#" class="hover:text-red-600">Advertise</a></li>
+          <li class="font-bold text-white text-sm"><a href="#" class="hover:text-red-600">Buy Theme</a></li>
+          <li class="font-bold text-white text-sm"><a href="#" class="hover:text-red-600">Work for us</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-1 justify-end flex-wrap">
+        <ul class="flex items-center gap-4 border-r border-gray-100 pr-3 mr-4">
+          <li class="text-white text-sm hover:text-red-600"><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li class="text-white text-sm hover:text-red-600"><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li class="text-white text-sm hover:text-red-600"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li class="text-white text-sm hover:text-red-600"><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li class="text-white text-sm hover:text-red-600"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+          <li><button class="border border-1 border-gray-100 rounded-2xl px-3 py-1 text-white text-xs uppercase">LOG
+              IN</button></li>
+        </ul>
+        <div class="flex items-center">
+          <span class="text-white text-2xl font-bold">28</span>
+          <div class="ml-2">
+            <div class="text-white text-xs uppercase font-bold">feb</span>
+              <div class="text-white text-xs">2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+  <!-- Top Nav End -->
+
+  <!-- Header start -->
+  <header>
+    <div class="container mx-auto py-6 mb-1">
+      <div class="flex items-center flex-wrap gap-2">
+        <div>
+          <a href="#"><img src="./assets/images/Gillion_Mag_logo.png" alt=""></a>
+        </div>
+        <div class="flex justify-end flex-1">
+          <img class="hidden lg:block" src="./assets/images/Ad_1.png" alt="">
+          <div class="block lg:hidden">
+            <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="container mx-auto border-t border-b border-gray-300 py-5 hidden lg:block" id="nav-content">
+      <div class="flex items-start lg:items-center flex-col lg:flex-row gap-3">
+        <div class="flex-1">
+          <ul class="flex gap-6 items-start lg:items-center flex-col lg:flex-row nav-list">
+            <li class="whitespace-nowrap"><a href="#" class="font-bold text-sm hover:text-red-600"><span
+                  class="mr-2">Home</span><i class="fas fa-ellipsis-v"></i></a></li>
+            <li class="whitespace-nowrap"><a href="#" class="font-bold text-sm hover:text-red-600"><span
+                  class="mr-2">Features</span><i class="fas fa-ellipsis-v"></i></a></li>
+            <li class="whitespace-nowrap"><a href="#" class="font-bold text-sm hover:text-red-600"><span
+                  class="mr-2">Blog Styles</span><i class="fas fa-ellipsis-v"></i></a></li>
+            <li class="whitespace-nowrap"><a href="#" class="font-bold text-sm hover:text-red-600"><span
+                  class="mr-2">Mega Menu</span><i class="fas fa-ellipsis-v"></i></a></li>
+            <li class="whitespace-nowrap"><a href="#" class="font-bold text-sm hover:text-red-600"><span
+                  class="mr-2">Shop</span><i class="fas fa-ellipsis-v"></i></a></li>
+          </ul>
+        </div>
+        <div class="flex-1 flex justify-end">
+          <ul class="flex gap-6 items-start lg:items-center flex-col lg:flex-row nav-list">
+            <li><a href="#" class="text-black text-base hover:text-red-600"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#" class="text-black text-base hover:text-red-600"><i class="fas fa-search"></i></a></li>
+            <li><a href="#" class="text-black text-base hover:text-red-600"><i class="fas fa-share-alt"></i></a></li>
+            <li><a href="#" class="text-black text-base hover:text-red-600"><i class="far fa-bookmark"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header end -->
+
+  <!-- Top Carousel Start -->
+  <section class="mt-5">
+    <div class="container mx-auto">
+      <div class="flex justify-center lg:justify-between items-center mb-4">
+        <div class="flex items-center flex-col lg:flex-row">
+          <h3 class="text-base lg:text-lg text-black font-extrabold italic lg:border-r border-gray-300 pr-3 mr-3">
+            Trending</h3>
+          <div class="flex items-center">
+            <div class="mr-2 h-12 w-12 mr-3 hidden lg:block">
+              <img class="rounded-full object-cover" src="./assets/images/smallImg.jpg" alt="">
+            </div>
+            <p><a href="#" class="italic text-base text-gray-600">Japanese Unagi Dumplings That Will Leave You
+                Speechless</a> </p>
+          </div>
+        </div>
+        <div class="border border-gray-300 shadow-md rounded-md px-3 py-1 hidden lg:block">
+          <button class="border-r border-gray-300 text-gray-400 text-base pr-2 mr-1"><i
+              class="fas fa-chevron-left"></i></button>
+          <button class="text-gray-400 text-base"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
+        <div class="h-full relative">
+          <img class="rounded-md object-cover h-full w-full" src="./assets/images/pic1.jpg" alt="">
+          <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+          </div>
+          <div class="absolute bottom-0 px-4 mb-4">
+            <div class="flex items-center gap-2 mb-1">
+              <a href="#"
+                class="h-8 w-8 rounded-full inline-block bg-gray-900 text-white text-sm flex justify-center items-center"><i
+                  class="fas fa-play"></i></a>
+              <a href="#"
+                class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                <span>Beauty</span></a>
+            </div>
+            <h3 class="text-base md:text-xl text-white font-bold">Lesson 1: Basics Of Photography With Natural Lighting
+            </h3>
+            <div class="mt-3">
+              <div class="flex items-center gap-2">
+                <div class="h-7 w-7">
+                  <img class="object-cover h-full" src="./assets/images/pic1.jpg" alt="">
+                </div>
+                <div class="text-gray-300 text-xs flex items-center">
+                  <div class="border-r border-gray-600 pr-2">
+                    <span>Gillion</span>,
+                    <span>5 Years Ago</span>
+                  </div>
+                  <div class="border-r border-gray-600 pr-2 mx-2">
+                    <span><i class="far fa-comment"></i></span>,
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-clock"></i></span>,
+                    <span>3 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2 md:gap-3 h-full">
+          <div class="flex gap-2 md:gap-3 h-1/2">
+            <div class="flex-1 relative">
+              <img class="rounded-md object-cover h-full w-full" src="./assets/images/pic2.jpg" alt="">
+              <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+              </div>
+              <div class="absolute bottom-0 px-4 mb-4">
+                <div class="mb-1 flex">
+                  <a href="#"
+                    class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                    <span>Beauty</span></a>
+                </div>
+                <h3 class="text-xs md:text-base text-white font-bold">Lesson 1: Basics Of Photography With Natural
+                  Lighting</h3>
+              </div>
+            </div>
+            <div class="flex-1 relative">
+              <img class="rounded-md object-cover h-full w-full" src="./assets/images/pic3.jpg" alt="">
+              <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+              </div>
+              <div class="absolute bottom-0 px-4 mb-4">
+                <div class="mb-1 flex">
+                  <a href="#"
+                    class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                    <span>Beauty</span></a>
+                </div>
+                <h3 class="sm:text-sm md:text-base text-white font-bold">Lesson 1: Basics Of Photography With Natural
+                  Lighting</h3>
+              </div>
+            </div>
+          </div>
+          <div class="h-1/2 relative">
+            <img class="rounded-md object-cover h-full w-full" src="./assets/images/pic4.jpg" alt="">
+            <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+            </div>
+            <div class="absolute bottom-0 px-4 mb-4">
+              <div class="flex items-center gap-2 mb-1">
+                <a href="#"
+                  class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                  <span>Beauty</span></a>
+              </div>
+              <h3 class="text-base md:text-xl text-white font-bold">Lesson 1: Basics Of Photography With Natural
+                Lighting</h3>
+              <div class="mt-3">
+                <div class="flex items-center gap-2">
+                  <div class="h-7 w-7">
+                    <img class="object-cover h-full" src="./assets/images/pic5.jpg" alt="">
+                  </div>
+                  <div class="text-gray-300 text-xs flex items-center">
+                    <div class="border-r border-gray-600 pr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div class="border-r border-gray-600 pr-2 mx-2">
+                      <span><i class="far fa-comment"></i></span>,
+                      <span>3</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>,
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Top Carousel Start -->
+
+  <section class="mt-12">
+    <div class="container mx-auto flex flex-wrap">
+      <div class="w-full md:w-8/12 md:pr-6">
+        <section>
+          <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+            <h3 class="uppercase text-black font-bold text-xl pb-3 border-b-2 relative post-title">top categories</h3>
+            <ul class="flex items-center gap-4 relative bottom--9">
+              <li><a href="#" class="uppercase text-black font-bold text-xs md:text-base">All</a></li>
+              <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">Food</a></li>
+              <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">Cars</a></li>
+              <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">News</a></li>
+              <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">Life Style</a></li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
+            <div class="h-full relative">
+              <img class="rounded-md object-cover h-full w-full rounded-md" src="./assets/images/pic2.jpg" alt="">
+              <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+              </div>
+              <div class="absolute bottom-0 px-4 mb-4">
+                <div class="flex items-center gap-2 mb-1">
+                  <a href="#"
+                    class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                    <span>Beauty</span></a>
+                </div>
+                <h3 class="text-base md:text-xl text-white font-bold">Lesson 1: Basics Of Photography With Natural
+                  Lighting</h3>
+                <div class="mt-3">
+                  <div class="flex items-center gap-2">
+                    <div class="h-7 w-7">
+                      <img class="object-cover h-full" src="./assets/images/pic4.jpg" alt="">
+                    </div>
+                    <div class="text-gray-300 text-xs flex items-center">
+                      <div class="border-r border-gray-600 pr-2">
+                        <span>Gillion</span>,
+                        <span>5 Years Ago</span>
+                      </div>
+                      <div class="border-r border-gray-600 pr-2 mx-2">
+                        <span><i class="far fa-comment"></i></span>,
+                        <span>3</span>
+                      </div>
+                      <div>
+                        <span><i class="far fa-clock"></i></span>,
+                        <span>3 min read</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex items-center gap-4 seprator--bottom pb-4 mb-4">
+                <div class="h-24 w-24 relative">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic5.jpg" alt="">
+                  <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                  </div>
+                  <div class="absolute top-0 right-0 bg-blue-400 px-2 rounded-tr-md rounded-bl-md">
+                    <span class="text-xs font-bold text-white">9.0</span>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="meta-info text-xs flex items-center mt-2">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 seprator--bottom pb-4 mb-4">
+                <div class="h-24 w-24 relative">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic6.jpg" alt="">
+                  <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                  </div>
+                  <div class="absolute top-0 right-0 bg-blue-400 px-2 rounded-tr-md rounded-bl-md">
+                    <span class="text-xs font-bold text-white">9.0</span>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="meta-info text-xs flex items-center mt-2">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>,
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 seprator--bottom pb-4 mb-4">
+                <div class="h-24 w-24 relative">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic7.jpg" alt="">
+                  <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                  </div>
+                  <div class="absolute top-0 right-0 bg-blue-400 px-2 rounded-tr-md rounded-bl-md">
+                    <span class="text-xs font-bold text-white">9.0</span>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="meta-info text-xs flex items-center mt-2">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>,
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4">
+                <div class="h-24 w-24 relative">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic7.jpg" alt="">
+                  <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                  </div>
+                  <div class="absolute top-0 right-0 bg-blue-400 px-2 rounded-tr-md rounded-bl-md">
+                    <span class="text-xs font-bold text-white">9.0</span>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="meta-info text-xs flex items-center mt-2">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>,
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-10">
+          <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+            <h3 class="uppercase text-black font-bold text-xl pb-3 border-b-2 relative post-title">best of tech and gadgets</h3>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <article>
+              <figure class="h-48">
+                <img src="./assets/images/pic8.jpg" class="object-cover h-full w-full rounded-md" alt="">
+              </figure>
+              <h3 class="text-base text-black font-semibold leading-4 post-title mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div>
+                  <span><i class="far fa-clock"></i></span>,
+                  <span>3 min read</span>
+                </div>
+              </div>
+            </article>
+            <article>
+              <figure class="h-48">
+                <img src="./assets/images/pic9.jpg" class="object-cover h-full rounded-md md:w-full" alt="">
+              </figure>
+              <h3 class="text-base text-black font-semibold leading-4 post-title mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div>
+                  <span><i class="far fa-clock"></i></span>,
+                  <span>3 min read</span>
+                </div>
+              </div>
+            </article>
+            <article>
+              <figure class="h-48">
+                <img src="./assets/images/pic10.jpg" class="object-cover h-full w-full rounded-md" alt="">
+              </figure>
+              <h3 class="text-base text-black font-semibold leading-4 post-title mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div>
+                  <span><i class="far fa-clock"></i></span>
+                  <span>3 min read</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="border border-gray-300 shadow-md rounded-md px-3 py-1 inline-block mt-8">
+            <button class="border-r border-gray-300 text-gray-400 text-base pr-2 mr-1"><i
+                class="fas fa-chevron-left"></i></button>
+            <button class="text-gray-400 text-base"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </section>
+        <section class="mt-10">
+          <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+            <h3 class="uppercase text-black font-bold text-xl pb-3 border-b-2 relative post-title">Fashion And Beauty</h3>
+            <ul class="flex items-center gap-4 relative bottom--9">
+              <li><a href="#" class="uppercase text-black font-bold text-xs md:text-base">All</a></li>
+              <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">Beauty</a></li>
+              <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">Fashion</a></li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic1.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-8 w-8 rounded-full inline-block bg-gray-900 text-white text-sm flex justify-center items-center"><i
+                        class="fas fa-play"></i></a>
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              <div class="flex items-center gap-4 seprator--top pt-8 mb-8 mt-4">
+                <div class="h-20 w-20">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic2.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="text-gray-500 text-xs flex items-center mt-3">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 seprator--top pt-8 mb-8 mt-4">
+                <div class="h-20 w-20">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic3.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="text-gray-500 text-xs flex items-center mt-3">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic4.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-8 w-8 rounded-full inline-block bg-gray-900 text-white text-sm flex justify-center items-center"><i
+                        class="fas fa-headphones-alt"></i></a>
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              <div class="flex items-center gap-4 seprator--top pt-8 mb-8 mt-4">
+                <div class="h-20 w-20">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic5.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="text-gray-500 text-xs flex items-center mt-3">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 seprator--top pt-8 mb-8 mt-4">
+                <div class="h-20 w-20">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic6.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="text-gray-500 text-xs flex items-center mt-3">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span>Gillion</span>,
+                      <span>5 Years Ago</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-clock"></i></span>
+                      <span>3 min read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+      <aside class="w-full md:w-4/12 md:pl-3">
+        <div class="sticky top-0">
+          <div class="mb-8">
+            <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+              <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">stay connected</h3>
+            </div>
+            <div class="flex gap-6 flex-wrap">
+              <div>
+                <div class="h-14 w-14 flex justify-center items-center text-xl text-white rounded-full relative fb--color">
+                  <i class="fa fa-facebook"></i>
+                  <span class="inline-block rounded-xl px-1 text-xs absolute">1423</span>
+                </div>
+                <div class="mt-2 text-center text-gray-800 text-sm uppercase">
+                  Like
+                </div>
+              </div>
+              <div>
+                <div class="h-14 w-14 flex justify-center items-center text-xl text-white rounded-full relative twitter--color">
+                  <i class="fa fa-twitter"></i>
+                  <span class="inline-block rounded-xl px-1 text-xs absolute">1423</span>
+                </div>
+                <div class="mt-2 text-center text-gray-800 text-sm uppercase">
+                  follow
+                </div>
+              </div>
+              <div>
+                <div class="h-14 w-14 flex justify-center items-center text-xl text-white rounded-full relative instagram--color">
+                  <i class="fa fa-instagram"></i>
+                  <span class="inline-block rounded-xl px-1 text-xs absolute">1423</span>
+                </div>
+                <div class="mt-2 text-center text-gray-800 text-sm uppercase">
+                  Like
+                </div>
+              </div>
+              <div>
+                <div class="h-14 w-14 flex justify-center items-center text-xl text-white rounded-full relative youTube--color">
+                  <i class="fab fa-youtube"></i>
+                  <span class="inline-block rounded-xl px-1 text-xs absolute">1423</span>
+                </div>
+                <div class="mt-2 text-center text-gray-800 text-sm uppercase">
+                  subscribe
+                </div>
+              </div>
+            </div>
+            <div class="mt-8">
+              <img class="rounded-md object-cover" src="./assets/images/pic7.jpg" alt="">
+            </div>
+          </div>
+          <div class="mb-8">
+            <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+              <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">reviews</h3>
+            </div>
+            <div class="flex items-center gap-4 border-b border-gray-300 pb-4 mb-4">
+              <div class="h-16 w-16 relative">
+                <img class="rounded-md object-cover relative h-full" src="./assets/images/pic8.jpg" alt="">
+                <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                </div>
+                <div class="absolute top-0 right-0 bg-blue-400 px-1 rounded-tr-md rounded-bl-md">
+                  <span class="text-xs font-bold text-white">9.0</span>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xs text-black font-semibold leading-4">How To Climb The Career Latter And
+                  Don’t Waste Your Youth </h3>
+                <div class="meta-info text-xs flex items-center mt-2">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span><i class="far fa-comment"></i></span>
+                    <span>0</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-eye"></i></span>
+                    <span>3280</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 border-b border-gray-300 pb-4 mb-4">
+              <div class="h-16 w-16 relative">
+                <img class="rounded-md object-cover relative h-full" src="./assets/images/pic9.jpg" alt="">
+                <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                </div>
+                <div class="absolute top-0 right-0 bg-blue-400 px-1 rounded-tr-md rounded-bl-md">
+                  <span class="text-xs font-bold text-white">9.0</span>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xs text-black font-semibold leading-4">How To Climb The Career Latter And
+                  Don’t Waste Your Youth </h3>
+                <div class="meta-info text-xs flex items-center mt-2">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span><i class="far fa-comment"></i></span>
+                    <span>0</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-eye"></i></span>
+                    <span>3280</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 pb-4 mb-4">
+              <div class="h-16 w-16 relative">
+                <img class="rounded-md object-cover relative h-full" src="./assets/images/pic10.jpg" alt="">
+                <div class="absolute inset-0 bg-black opacity-30 h-full rounded-md">
+                </div>
+                <div class="absolute top-0 right-0 bg-blue-400 px-1 rounded-tr-md rounded-bl-md">
+                  <span class="text-xs font-bold text-white">9.0</span>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xs text-black font-semibold leading-4">How To Climb The Career Latter And
+                  Don’t Waste Your Youth </h3>
+                <div class="meta-info text-xs flex items-center mt-2">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span><i class="far fa-comment"></i></span>
+                    <span>0</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-eye"></i></span>
+                    <span>3280</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border border-gray-300 shadow-md rounded-md px-3 py-1 inline-block">
+              <button class="border-r border-gray-300 text-gray-400 text-base pr-2 mr-1"><i
+                  class="fas fa-chevron-left"></i></button>
+              <button class="text-gray-400 text-base"><i class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+              <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">life hacks</h3>
+              <ul class="flex items-center gap-4 relative bottom--9">
+                <li><a href="#" class="uppercase text-black font-bold text-xs md:text-base">All</a></li>
+                <li><a href="#" class="uppercase text-gray-500 text-xs md:text-base">Beauty</a></li>
+              </ul>
+            </div>
+            <article>
+              <figure class="h-60">
+                <img src="./assets/images/pic1.jpg" class="object-cover h-full w-full rounded-md" alt="">
+              </figure>
+              <h3 class="text-xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              <div class="border border-gray-300 shadow-md rounded-md px-3 py-1 inline-block my-6">
+                <button class="border-r border-gray-300 text-gray-400 text-base pr-2 mr-1"><i
+                    class="fas fa-chevron-left"></i></button>
+                <button class="text-gray-400 text-base"><i class="fas fa-chevron-right"></i></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- center carousel -->
+  <section>
+    <div class="container mx-auto">
+      <div class="h-full relative">
+        <img class="rounded-2xl object-cover h-full w-full" src="./assets/images/pic2.jpg" alt="">
+        <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-2xl">
+        </div>
+        <div class="absolute bottom-0 w-full h-full flex justify-center items-center px-4">
+          <div class="text-center">
+            <div class="flex items-center gap-2 mb-4 justify-center">
+              <a href="#"
+                class="h-8 w-8 rounded-full inline-block bg-gray-900 text-white text-sm flex justify-center items-center"><i
+                  class="fas fa-play"></i></a>
+              <a href="#"
+                class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                <span>Beauty</span></a>
+            </div>
+            <h3 class="text-xl md:text-4xl text-white font-bold text-center">Basics Of Photography With Natural Lighting
+            </h3>
+            <div class="mt-8">
+              <div class="flex items-center justify-center gap-2">
+                <div class="h-7 w-7">
+                  <img class="object-cover h-full" src="./assets/images/pic3.jpg" alt="">
+                </div>
+                <div class="text-gray-300 text-xs flex items-center">
+                  <div class="border-r border-gray-600 pr-2">
+                    <span>Gillion</span>,
+                    <span>5 Years Ago</span>
+                  </div>
+                  <div class="border-r border-gray-600 pr-2 mx-2">
+                    <span><i class="far fa-comment"></i></span>,
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-clock"></i></span>,
+                    <span>3 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- center carousel -->
+
+  <section class="mt-12 seprator--bottom pb-10 mb-20">
+    <div class="container mx-auto flex flex-wrap">
+      <div class="w-full md:w-8/12 md:pr-6">
+        <section>
+          <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+            <h3 class="uppercase text-black font-bold text-xl pb-3 border-b-2 relative post-title">Editors pick</h3>
+          </div>
+          <div>
+            <div class="flex flex-col md:flex-row gap-4 mb-8">
+              <div class="h-48 w-48 relative">
+                <img src="./assets/images/pic4.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl text-black font-semibold">How To Climb The Career Latter And
+                  Don’t Waste Your Youth </h3>
+                <div class="text-gray-500 text-xs flex items-center mt-3">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span>Gillion</span>,
+                    <span>5 Years Ago</span>
+                  </div>
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span><i class="far fa-comment"></i></span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-clock"></i></span>
+                    <span>3 min read</span>
+                  </div>
+                </div>
+                <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-4 mb-8">
+              <div class="h-48 w-48 relative">
+                <img src="./assets/images/pic5.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl text-black font-semibold">How To Climb The Career Latter And
+                  Don’t Waste Your Youth </h3>
+                <div class="text-gray-500 text-xs flex items-center mt-3">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span>Gillion</span>,
+                    <span>5 Years Ago</span>
+                  </div>
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span><i class="far fa-comment"></i></span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-clock"></i></span>
+                    <span>3 min read</span>
+                  </div>
+                </div>
+                <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-4 mb-8">
+              <div class="h-48 w-48 relative">
+                <img src="./assets/images/pic7.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl text-black font-semibold">How To Climb The Career Latter And
+                  Don’t Waste Your Youth </h3>
+                <div class="text-gray-500 text-xs flex items-center mt-3">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span>Gillion</span>,
+                    <span>5 Years Ago</span>
+                  </div>
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span><i class="far fa-comment"></i></span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-clock"></i></span>
+                    <span>3 min read</span>
+                  </div>
+                </div>
+                <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              </div>
+            </div>
+            <div class="mt-16">
+              <img src="./assets/images/Ad_1.png" alt="" class="w-full">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+            <h3 class="uppercase text-black font-bold text-xl pb-3 border-b-2 relative post-title">RECENT POSTS</h3>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic8.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl md:text-2xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>3 min read</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+            </article>
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic9.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-8 w-8 rounded-full inline-block bg-gray-900 text-white text-sm flex justify-center items-center"><i
+                        class="fas fa-headphones-alt"></i></a>
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl md:text-2xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>3 min read</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+            </article>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic10.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl md:text-2xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>3 min read</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+            </article>
+            <article>
+              <div class="h-full relative">
+                <img class="rounded-md object-cover h-full w-full rounded-md" src="./assets/images/pic1.jpg" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-6">
+                  <h3 class="text-base md:text-2xl md:text-xl text-white font-bold">" To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment "</h3>
+                  <p class="text-base text-white mt-3">- Unknown Author</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic2.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl md:text-2xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>3 min read</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+            </article>
+            <article>
+              <figure class="h-60 relative">
+                <img src="./assets/images/pic3.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                <div class="absolute inset-0 bg-black opacity-50 h-full flex flex-col rounded-md">
+                </div>
+                <div class="absolute bottom-0 px-4 mb-4">
+                  <div class="flex items-center gap-2 mb-1">
+                    <a href="#"
+                      class="h-8 w-8 rounded-full inline-block bg-gray-900 text-white text-sm flex justify-center items-center"><i
+                        class="fas fa-headphones-alt"></i></a>
+                    <a href="#"
+                      class="h-6 px-2 text-white text-sm bg-gray-900 italic rounded-2xl flex justify-center items-center">
+                      <span>Beauty</span></a>
+                  </div>
+                </div>
+              </figure>
+              <h3 class="text-xl md:text-2xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                2018</h3>
+              <div class="text-gray-500 text-xs flex items-center mt-3">
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span>Gillion</span>,
+                  <span>5 Years Ago</span>
+                </div>
+                <div class="border-r border-gray-300 pr-2 mr-2">
+                  <span><i class="far fa-clock"></i></span>
+                  <span>3 min read</span>
+                </div>
+                <div>
+                  <span><i class="far fa-comment"></i></span>
+                  <span>3</span>
+                </div>
+              </div>
+              <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+            </article>
+          </div>
+        </section>
+
+        <button class="uppercase border border-gray-300 w-full p-5 shadow-lg font-bold text-base my-20 rounded-md">
+          Load More
+        </button>
+      </div>
+      <aside class="w-full md:w-4/12 md:pl-3">
+        <div class="sticky top-0">
+          <div>
+            <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+              <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">SUBSCRIBE</h3>
+            </div>
+            <div>
+              <div class="relative">
+                <input type="email" class="border border-gray-300 w-full rounded-3xl px-6 text-sm text-gray-600 h-14"
+                  placeholder="Your Email Address">
+                <button type="submit" class="absolute text-xl text-gray-600 btn--position"><i
+                    class="far fa-paper-plane"></i></button>
+              </div>
+              <p class="italic text-sm text-gray-400 mt-3">* You will receive the latest news and updates on your
+                favorite celebrities!</p>
+            </div>
+            <div>
+              <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+                <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">Quick Cook</h3>
+              </div>
+              <article>
+                <figure class="h-60">
+                  <img src="./assets/images/pic4.jpg" class="object-cover h-full w-full rounded-md" alt="">
+                </figure>
+                <h3 class="text-xl text-black font-semibold mt-3 w-3/4">Best Portable Bluetooth Speakers In
+                  2018</h3>
+                <div class="text-gray-500 text-xs flex items-center mt-3">
+                  <div class="border-r border-gray-300 pr-2 mr-2">
+                    <span>Gillion</span>,
+                    <span>5 Years Ago</span>
+                  </div>
+                  <div>
+                    <span><i class="far fa-comment"></i></span>
+                    <span>3</span>
+                  </div>
+                </div>
+                <p class="mt-3 text-gray-600 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  laoreet, nunc et accumsan cursus, neque eros sodales lectus, in fermentum…</p>
+              </article>
+              <div class="flex items-center gap-4 seprator--top pt-4 my-5">
+                <div class="h-16 w-16">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic5.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="meta-info text-xs flex items-center mt-2">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span><i class="far fa-comment"></i></span>
+                      <span>0</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-eye"></i></span>
+                      <span>3280</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 seprator--top pt-4 my-5">
+                <div class="h-16 w-16">
+                  <img class="rounded-md object-cover relative h-full" src="./assets/images/pic6.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+                    Don’t Waste Your Youth </h3>
+                  <div class="meta-info text-xs flex items-center mt-2">
+                    <div class="border-r border-gray-300 pr-2 mr-2">
+                      <span><i class="far fa-comment"></i></span>
+                      <span>0</span>
+                    </div>
+                    <div>
+                      <span><i class="far fa-eye"></i></span>
+                      <span>3280</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="border border-gray-300 shadow-md rounded-md px-3 py-1 inline-block mt-6">
+                <button class="border-r border-gray-300 text-gray-400 text-base pr-2 mr-1"><i
+                    class="fas fa-chevron-left"></i></button>
+                <button class="text-gray-400 text-base"><i class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="mt-15">
+    <div class="container mx-auto flex flex-wrap">
+      <div class="w-full md:w-4/12">
+        <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+          <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">SUBSCRIBE now</h3>
+        </div>
+        <div>
+          <div class="relative">
+            <input type="email" class="border border-gray-300 w-full rounded-3xl px-6 text-sm text-gray-600 h-14"
+              placeholder="Your Email Address">
+            <button type="submit" class="absolute text-xl text-gray-600 btn--position"><i
+                class="far fa-paper-plane"></i></button>
+          </div>
+          <p class="italic text-sm text-gray-400 mt-3">* You will receive the latest news and updates on your
+            favorite celebrities!</p>
+        </div>
+      </div>
+      <div class="w-full md:w-4/12 md:px-5">
+        <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+          <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">Reviews</h3>
+        </div>
+        <div class="flex items-center gap-4 my-5">
+          <div class="h-16 w-16">
+            <img class="rounded-md object-cover relative h-full" src="./assets/images/pic7.jpg" alt="">
+          </div>
+          <div class="flex-1">
+            <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+              Don’t Waste Your Youth </h3>
+            <div class="meta-info text-xs flex items-center mt-2">
+              <div class="border-r border-gray-300 pr-2 mr-2">
+                <span><i class="far fa-comment"></i></span>
+                <span>0</span>
+              </div>
+              <div>
+                <span><i class="far fa-eye"></i></span>
+                <span>3280</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 seprator--top pt-4 my-5">
+          <div class="h-16 w-16">
+            <img class="rounded-md object-cover relative h-full" src="./assets/images/pic9.jpg" alt="">
+          </div>
+          <div class="flex-1">
+            <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+              Don’t Waste Your Youth </h3>
+            <div class="meta-info text-xs flex items-center mt-2">
+              <div class="border-r border-gray-300 pr-2 mr-2">
+                <span><i class="far fa-comment"></i></span>
+                <span>0</span>
+              </div>
+              <div>
+                <span><i class="far fa-eye"></i></span>
+                <span>3280</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 seprator--top pt-4 my-5">
+          <div class="h-16 w-16">
+            <img class="rounded-md object-cover relative h-full" src="./assets/images/pic10.jpg" alt="">
+          </div>
+          <div class="flex-1">
+            <h3 class="text-base text-black font-semibold leading-4 post-title">How To Climb The Career Latter And
+              Don’t Waste Your Youth </h3>
+            <div class="meta-info text-xs flex items-center mt-2">
+              <div class="border-r border-gray-300 pr-2 mr-2">
+                <span><i class="far fa-comment"></i></span>
+                <span>0</span>
+              </div>
+              <div>
+                <span><i class="far fa-eye"></i></span>
+                <span>3280</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-4/12">
+        <div class="flex justify-between items-center flex-wrap title--seprator mb-6 pb-3 gap-3">
+          <h3 class="uppercase text-black font-bold text-sm sm:text-base pb-3 border-b-2 relative post-title">CATEGORIES</h3>
+        </div>
+        <ul class="list-disc">
+          <li class="flex justify-between items-center seprator--bottom py-3 mb-1 text-xs"><span class="font-bold">Animals</span> <span>1</span></li>
+          <li class="flex justify-between items-center seprator--bottom py-3 mb-1 text-xs"><span class="font-bold">Animals</span> <span>1</span></li>
+          <li class="flex justify-between items-center seprator--bottom py-3 mb-1 text-xs"><span class="font-bold">Animals</span> <span>1</span></li>
+          <li class="flex justify-between items-center seprator--bottom py-3 mb-1 text-xs"><span class="font-bold">Animals</span> <span>1</span></li>
+          <li class="flex justify-between items-center seprator--bottom py-3 mb-1 text-xs"><span class="font-bold">Animals</span> <span>1</span></li>
+          <li class="flex justify-between items-center seprator--bottom py-3 mb-1 text-xs"><span class="font-bold">Animals</span> <span>1</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-200 py-10 mt-10">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between flex-wrap gap-3">
+        <h3 class="text-gray-500 text-sm md:text-base">WordPress Theme built by <strong>Shufflehound</strong>.</h3>
+        <ul class="flex items-center gap-4">
+          <li><a href="#" class="text-gray-500 font-bold uppercase text-sm md:text-base">about</a></li>
+          <li><a href="#" class="text-gray-500 font-bold uppercase text-sm md:text-base">contacts</a></li>
+          <li><a href="#" class="text-gray-500 font-bold uppercase text-sm md:text-base">settings</a></li>
+          <li><a href="#" class="text-gray-500 font-bold uppercase text-sm md:text-base">advertise</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    //Javascript to toggle the menu
+    document.getElementById('nav-toggle').onclick = function () {
+      document.getElementById("nav-content").classList.toggle("hidden");
+    }
+  </script>
+
+</body>
+
+</html>
